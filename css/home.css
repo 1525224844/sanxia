@@ -1,0 +1,53 @@
+.content{
+    height:590px;
+}
+.display{
+    position:relative;
+}
+#turn_left{
+    position:absolute;
+    top:150px;
+    cursor:pointer;
+    /* z-index:-1; */
+}
+#turn_right{
+    position:absolute;
+    left:485px;
+    top:150px;
+    cursor:pointer;
+}
+#album{
+    position:absolute;
+    left:30px;
+    top:20px;
+    margin:0 auto;
+    width:460px;
+    height:310px;
+    background-color:#fff;
+    -webkit-box-shadow:5px 5px #CDCDCD; 
+    box-shadow:5px 5px #CDCDCD; 
+    z-index:9999999;
+    -webkit-borderradius: 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    overflow:hidden;
+}
+#album_show{
+    position:absolute;
+    height:500px;
+
+}
+
+#album img{
+    margin:5px 0 0 5px;
+    padding:0px;
+}
+.sanxia{
+    margin-top:20px;
+    word-break:hyphenate;
+}
+
+
+
+
+

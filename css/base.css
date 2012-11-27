@@ -1,0 +1,38 @@
+body{
+    margin:auto;
+    background-image:url('../images/bg.png');
+}
+.head_logo.span12{
+    margin-top:10px;
+    height:110px;
+}
+#logo{
+    margin:10px 0 0 0;
+    width:150px;
+}
+#logo_right{
+    background-image:url("../images/logo_right.jpg");
+    height:100px;
+    width:657px;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 16px;  
+}
+.nav-banner{
+    height:50px;
+}
+.nav.nav-pills a{
+    text-align:center;
+    width:90px;
+    height:20px;
+    margin-right:60px;
+}
+.us{
+    position:relative;
+    margin-left:50px;
+}
+/* .all{ */
+/*     background-color:#344; */
+    
+/* } */
