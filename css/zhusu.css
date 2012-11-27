@@ -1,0 +1,13 @@
+ul {
+    list-style:none;
+}
+a {
+    display:block;
+    width:500px;
+    height:400px;
+    float:left;
+    text-decoration:none;
+}
+.hotel img{
+    width:400px;
+}

@@ -1,0 +1,20 @@
+ul {
+    list-style:none;
+}
+a {
+    display:block;
+    width:135px;
+    float:left;
+    text-decoration:none;
+}
+
+.strantegy{
+    margin-left:-25px;
+}
+.restaurant li{
+    margin-top:24px;
+}
+
+.strantegy img {
+    margin-left:-15px;
+}

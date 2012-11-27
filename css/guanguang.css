@@ -1,0 +1,13 @@
+.show_main{
+    width:600px;
+    height:400px;
+    overflow:hidden;
+}
+.show_bottom{
+    margin-top:20px;
+    margin-left:320px;
+}
+.show_bottom img{
+    width:100px;
+    margin-right:46px;
+}

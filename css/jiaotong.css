@@ -1,0 +1,6 @@
+.info p{
+    word-break:hyphenate;
+}
+.info{
+    margin-bottom:30px;
+}
