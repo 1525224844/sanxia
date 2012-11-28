@@ -7,7 +7,11 @@ a {
     float:left;
     text-decoration:none;
 }
-
+.title{
+    font-size:25px;
+    width:40px;
+    margin-left:187px;
+}
 .strantegy{
     margin-left:-25px;
 }
@@ -17,4 +21,7 @@ a {
 
 .strantegy img {
     margin-left:-15px;
+}
+.tips{
+    margin-top:30px;
 }

@@ -17,7 +17,7 @@
         </a>
       </div>
       <div  class = "nav-banner span12">
-               <ul class ="list nav nav-pills">
+            <ul class ="list nav nav-pills">
           <li class = "active">
             <a href="home.html">首页</a>
           </li>
@@ -25,10 +25,17 @@
           <li><a href="jiaotong.html">交通</a></li>
           <li><a href="guanguang.html">观光</a></li>
           <li><a href="meishi.html">美食</a></li>
+          <li id = "tieshi"><a >提交反馈</a></li>
         </ul>
       </div>
       <div class ="content span12">
         <div class = "container-fluid">
+          <div class = "tips">
+            <form action = "" method = "post">
+              <textarea name = "content" id = "fankui_content" placeholder = "写写您的看法吧～～"></textarea>
+              <input type = "submit" class = "offset5" value = "提交">
+              </form>
+            </div>
           <div class = "row-fluid">
             <div class = "span3 sanxia">
               <p>简介：三峡大坝旅游区占15.28平方公里，目前对游客开放的是五个观景点，登上4A级旅游景区坛子岭观景点你能鸟瞰三峡工程全貌，体会毛主席诗句“截断巫山云雨，高峡出平湖”的豪迈情怀；站在１８５平台上向下俯看，感受中华民族的伟大与自豪；走进近坝观景点，你能零距离感受雄伟壮丽的大坝；登上坝顶你能直面雷霆万钧的泄洪景观；来到截流纪念园欣赏人与自然的完美结合，仿佛置身于“山水相连，天人合一”的人间美景．</p>
@@ -50,7 +57,18 @@
             </div>
           </div>
         </div>
-      </div>
+        <div class = "lianxi span12">
+          <div class = "row-fluid">
+            <div class = "tianqi span4">
+              <img src = "images/lianxi/tianqi.png">
+            </div>
+            <div class = "contact span6">
+              <img id = "tel"src = "images/lianxi/tel.png">
+              <img src = "images/lianxi/qq.png">
+              <img src = "images/lianxi/sina.png">
+            </div>
+          </div>
+        </div>
       <footer>
         <div class = "copyright_link offset1">
           <ul class="nav nav-pills link-cpy">
@@ -73,6 +91,7 @@
         </div>
       </footer>
       <script src = "js/jquery.js"></script>
+      <script src = "js/base.js"></script>
       <script src = "js/home.js"></script>
     </div>
   </body>

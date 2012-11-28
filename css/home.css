@@ -1,6 +1,3 @@
-.content{
-    height:590px;
-}
 .display{
     position:relative;
 }
@@ -35,6 +32,7 @@
 #album_show{
     position:absolute;
     height:500px;
+    width:3000px;
 
 }
 
@@ -46,8 +44,25 @@
     margin-top:20px;
     word-break:hyphenate;
 }
-
-
+footer{
+    margin-top:60px;
+}
+.lianxi{
+    margin-top:60px;
+    float:left;
+}
+.contact {
+    margin-top:30px;
+}
+#fankui_content{
+    width:800px;
+    height:200px;
+    resize:none;
+    margin:10px 0 0 40px;;
+}
+.tips input{
+    margin-top:10px;
+}
 
 
 
