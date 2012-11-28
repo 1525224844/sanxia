@@ -1,13 +1,16 @@
+#descriptions{
+    margin-top:70px;
+}
 .show_main{
     width:600px;
     height:400px;
     overflow:hidden;
 }
 .show_bottom{
-    margin-top:20px;
     margin-left:320px;
 }
 .show_bottom img{
+    float:left;
     width:100px;
-    margin-right:46px;
+    margin-bottom:14px;
 }
